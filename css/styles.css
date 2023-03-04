@@ -69,25 +69,14 @@ body {
 
 .address-item {}
 
-.address-mail {
+.contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--adrress-color);
 }
 
-.address-mail:is(:hover, :focus) {
-    color: #404BBF;
-}
-
-.address-tel {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--adrress-color);
-}
-
-.address-tel:is(:hover, :focus) {
+.contact:is(:hover, :focus) {
     color: #404BBF;
 }
 
@@ -165,9 +154,10 @@ body {
     text-align: center
 }
 
-.work-title{
+.work-title {
     text-transform: capitalize
 }
+
 .work-list {}
 
 .work-item {}
@@ -186,7 +176,8 @@ body {
 .team-title {
     text-align: center
 }
-.team-title{
+
+.team-title {
     text-transform: capitalize
 }
 
