@@ -177,11 +177,11 @@ body {
     color: var(--second-title-color);
 }
 
-.team-title {
+.team-main-title {
     text-align: center
 }
 
-.team-title {
+.team-main-title {
     text-transform: capitalize
 }
 
