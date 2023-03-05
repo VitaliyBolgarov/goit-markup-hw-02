@@ -63,6 +63,10 @@ body {
     color: #404BBF;
 }
 
+.current {
+    color: #404BBF;
+}
+
 .address {}
 
 .address-list {}
@@ -124,7 +128,7 @@ body {
 
 .proposition-item {}
 
-.proposition-title {
+.section-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -132,7 +136,7 @@ body {
     color: var(--second-title-color);
 }
 
-.proposition-text {
+.section-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -166,7 +170,7 @@ body {
 
 .team {}
 
-.team-title {
+.team-main-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -201,4 +205,28 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
+}
+
+/**----------------------PORTFOLIO---------------------*/
+
+.portfolio {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+    cursor: pointer;
+}
+
+.portfolio-btn:is(:hover, :focus) {
+    color: #ffffff;
+    background: #404BBF;
 }
